@@ -1,10 +1,32 @@
-<!DOCTYPE HTML>
-<html>
-  <body> 
-<h1>Moraldo Andres</h1>
-<h2>Argentino</h2>
-<h3>23 jun 1981</h3>
-<h4>39 años</h4>
-<h5>HOLA MUNDO</h5>
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Introduce Myself</title>
+    
+  </head>
+  <body>
+      <!-- <p>Soy un comentario de HTML</p> -->
+      <h1>Moraldo Andres</h1>
+      <h2>Argentino</h2>
+      <h3>23 jun 1981</h3>
+      <h4>39 años</h4>
+      <h5>HOLA MUNDO</h5>
+
+  
+      <p id="demo"></p>
+
+      <script>
+        var autor = "Andres";
+        var unaFuncion = new Function('return "Hola mundo";');
+        var unNumero =1;
+        var unaPalabra = "Hola Mundo";
+        var unaFecha = new Date();
+        var unDato;
+        document.getElementById("demo").innerHTML = "The value of autor variable is " + autor + " and its type is: " + typeof autor;
+      </script>
+
 </body>
 </html>
