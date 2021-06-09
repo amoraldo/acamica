@@ -26,8 +26,8 @@
     </ol>
 
 
-  
     <p id="demo"></p>
+    <p id="demo1" onclick ="my_function()"> Texto cambiante </p>
 
     <script>
         var autor = "Andres";
@@ -38,7 +38,13 @@
         var unDato;
         document.getElementById("demo").innerHTML = "The value of autor variable is " + autor + " and its type is: " + typeof autor;
     </script>
+    <script>
+      function my_function(){
+        var my_variable = "El texto ha cambiado"
+        document.getElementById("demo1").innerHTML=my_variable
+      }
 
+    </script>
       
 
 </body>
