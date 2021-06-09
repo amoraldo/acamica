@@ -28,7 +28,7 @@
 
     <p id="demo"></p>
     <p id="demo1" onclick ="my_function()"> Texto cambiante </p>
-
+    <p id="demo3" onclick ="my_function2()"> Doble cambio de texto </p>
     <script>
         var autor = "Andres";
         var unaFuncion = new Function('return "Hola mundo";');
@@ -42,8 +42,12 @@
       function my_function(){
         var my_variable = "El texto ha cambiado"
         document.getElementById("demo1").innerHTML=my_variable
-      }
 
+      }
+      function my_function2(){
+        document.getElementById("demo").innerHTML="cambio texto nuevo1"
+        document.getElementById("demo1").innerHTML="cambio texto nuevo2"
+      }
     </script>
       
 
